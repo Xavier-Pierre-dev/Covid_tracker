@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 🚀 Javascript Front-End 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Alt text](./covid_interface.JPG "Screenshot")
 
-## Available Scripts
+## Stack :
+* React js
+* Material UI
+* Fetch data from an online API (https://disease.sh/)
+* BEM naming convention
+* Leaflet (displaying map)
+* Chart.js (displaying chart)
+_____________________________
 
-In the project directory, you can run:
+### Features :
+* Shows Live Cases, Recoveries, Deaths (clickable tabs)
+* Shows Worldwide cases and Country Based cases
+* Line Chart shows fluctuations over days for Cases, Recoveries, Deaths (Selection with tab)
+* Map display Cases, Recoveries, Deaths depending on the tabs selection
+* Clickable circle markers on Map show Country stats
+* Dropdown field allow us to select a country at this moment the country will be center and zoom on the map, the tabs will display the information for this specified country and the chart will also be updated.
+* Responsive
+_____________________________
 
-### `npm start`
+### Quick Started :
+Start the app : `npm start`
+_____________________________
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Why this project :
+I'm learning web development because that interest me. Now this project is created by learning from Clever Programmer (https://www.youtube.com/c/CleverProgrammer/featured) thanks to them for sharing free class on google. 
+I choose this project because i want practice Chart.js and Leaflet with a project for be able to display dynamic chart and data on a webpage and also map. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### What i learn and practice from this project :
+  - BEM naming convention and i find this convention really great for when we want to make a new style of a component, we can easily see which modifiers and children already exist. Finally this convention make the process for writting css/html more clean and easier to understand. 
+  - Practicing React/javascript/hmtl/css 
 
-### `npm test`
+### Some reflexion about the project and realtime database :
+I think that using redux (store/reducer) will reduce the complexity of the project because the data will be easily available for each component. Otherwise, I already used chart.js without wrapper in another project and I find it more convenient to use it without because it's more flexible. Anyway, I find this project really good to practice react and props because a lot of components communicate with each other using props to share data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In all cases, I'm now thinking about practicing web development from the courses of the online platform freecodecamps : https://www.freecodecamp.org/learn/ and their different certifications based on concrete projects. I think it could strengthen my bases, and widen my field of vision on this domain and a better understanding. Maybe also Odin project : https://www.theodinproject.com/paths. 
 
-### `npm run build`
+Originally after practicing react I thought I wanted to go deeper. Therefore go on next.js, react-native, electron but finally I think it's better to go on trainings that will give me a more global vision. I think that it will allow me to learn and adapt faster to the evolution in this environment. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
